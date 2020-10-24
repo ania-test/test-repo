@@ -1,0 +1,36 @@
+body {
+    background-color: gray;
+    height: 2000px;
+}
+
+h1 {
+    color: #fff;
+}
+
+.tooltip {
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    padding: 10px 10px 30px 10px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    color: darkgray;
+}
+
+.jadacyZOknem {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: blue;
+}
